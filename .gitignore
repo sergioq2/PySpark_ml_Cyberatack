@@ -1,0 +1,5 @@
+data/
+model_trained/
+nbaiot-dataset.zip
+kaggle.json
+parquet_data
