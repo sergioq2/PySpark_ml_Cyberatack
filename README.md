@@ -1,12 +1,5 @@
-This repository contains a Python code implementation for a machine learning model that focuses on cyber security attack detection. 
-The model is trained using PySpark and leverages big data techniques to handle a dataset containing more than 7 million records. 
-The primary goal of this project is to develop a robust and efficient solution for identifying and classifying cyber security attacks.
 
-The MAIN folder has the modeling.py file that is the main code to train the Random Forest model
+# Machine Learning model to detect cyberattacks on IoT devices
 
-The Other folder contain the code to read and pre process the data.
-
-Dataset:
-The dataset used in this project comprises a comprehensive collection of cyber security attack instances collected from a S3 Bucket
-It includes features related to network traffic, system logs, and various indicators of attacks. 
-The dataset has been preprocessed to anonymize sensitive information and ensure its usability for research and analysis.
+Machine Learning model for the automatic detection of cyber attacks on IoT devices through the use of their traffic data, developed with the Big Data PySpark framework of Apache Spark.
+Oveer 7 million records of data traffic generated between devices, from source to destination. To handle this vast dataset, I employed the Apache Spark framework's PySpark. The process encompassed everything from data processing to model creation. The model's objective is to identify whether a device is infected with one of the categorized nine types of malware or if it's clean.
